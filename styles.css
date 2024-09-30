@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+#container{
+    background: url("./assets/background.png");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    padding-bottom: 100px;
+}
+
+#logo-netflix{
+    height: 80px;
+}
+
+#entrar{
+    background-color: #f00;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 6px;
+    float: right;
+    cursor: pointer;
+}
+
+#header{
+    padding: 30px 80px;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    width: 700px;
+    margin: 100px auto 0;
+}
+
+#assista{
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#pronto{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+input{
+    width: 500px;
+}
+
+#email-button{
+    width: 250px;
+    background-color: #f00;
+    border: 0;
+    font-size: 24px;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#seta{
+    height: 40px;
+    opacity: .4;
+    padding-left: 20px;
+}
+
+#form{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    height: 70px;
+}
+
+#footer{
+    background-color: #000;
+    border-top: 10px solid #303030;
+    padding: 100px 0;
+}
+
+h2{
+    font-size: 50px;
+    text-align: center;
+}
+
+.quest{
+    width: 700px;
+    background-color: #303030;
+    height: 70px;
+    border: 0;
+    font-size: 24px;
+    margin: 40px auto 0;
+    text-align: left;
+    padding: 20px;
+    margin: 4px auto;
+    display: block;
+}
+
+.plus{
+    float: right;
+    height: 40px;
+    margin: auto 0;
+    transform: rotate(45deg);
+}
+
+.plus:hover{
+    opacity: .5;
+}
+
+#plus{
+    float: right;
+    height: 40px;
+    margin: auto 0;
+    transform: rotate(45deg);
+}
+
+#plus-turn-around{
+    float: right;
+    height: 40px;
+    margin: auto 0;
+    transform: rotate(90deg);
+}
+
+.response{
+    width: 700px;
+    background-color: #303030;
+    margin: 4px auto;
+    padding: 24px;
+    display: none;
+}
+
+.resp-par{
+    font-size: 24px;
+}
